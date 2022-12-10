@@ -1,0 +1,35 @@
+.wrapper-weather {
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+.weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c38370;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: #f7c9b6;
+  gap: 0.3rem;
+  width: 320px;
+}
+.country {
+  width: 100%;
+}
+.weather-info {
+  width: 100%;
+  color: #f2ede9;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4b7a0;
+}
+.temp {
+  font-weight: bold;
+  font-size: 2rem;
+}
